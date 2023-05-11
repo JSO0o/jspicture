@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.jspicture{
+    font-family: 'Hahmlet', serif;
+    font-size:70px; 
+    padding:30px 0 60px;  
+    letter-spacing:-1px; 
+    width:100%; 
+    text-align:center;
+}
+
+.ex{
+    float:right;
+    border:1px solid; padding:10px ;
+    font-size:20px;
+    padding: 5px 70px 5px 70px;
+    
+}
+
+a{text-decoration-line: none;}
+
+line{
+    padding:60px 0; 
+    width:100%;
+    color: white;
+}
+
+footer{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:30px 0;  
+    letter-spacing:-1px; 
+    width:100%; 
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+* {
+    font-family: 'Hahmlet', serif;
+    background-color: black;
+    color: white;
+}
+
+.jspicture {
+    font-size: 70px;
+    padding: 30px 0 60px;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+.order {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 60px 0;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+.how {
+    font-weight: 600;
+    font-size: 50px;
+    padding: 60px 0;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+.qa {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 60px 0;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+line {
+    padding: 60px 0;
+    width: 100%;
+    color: white;
+}
+
+footer {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 30px 0;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a div:hover {
+    background: #222;
+    transition: 0.15s ease all;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-position: under;
+}
