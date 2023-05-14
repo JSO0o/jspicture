@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="orderpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Order</title>
+</head>
+<body>
+    <div class="jspicture">
+        <a href="index.html"><b>JS PICTURE</b></a>
+    </div>
+    <div class="tablee">
+        <table>
+            <tr>
+                <td class="left">
+                    <img src="two.png" />
+                </td>
+                <td class="right">
+                    <span class="detail">현재 선택하신 상품은 <b>2인촬영 리터치</b>입니다.</span>
+                    <br><br>
+                    <section class="sit_option">
+                        <label class="optionchoose">옵션 선택</label>
+                        <div class=""> 
+                            <select class="choose">
+                                <option value>[필수] 선택하세요</option>
+                                <option value="기본보정,0,9894">기본보정&nbsp;10,000원</option>
+                                <option value="고급보정,5000,9847">고급보정&nbsp;15,000원</option>
+                            </select>
+                        </section>
+                        <br>
+                        <input type="file" name="work_file" class="fileupload" required>
+                        </div>
+                    <button type="button" class="btn btn-primary btn-lg" onclick="alert('구매가 완료되었습니다.')">구매진행</button>
+                </td>
+            </tr>
+        </table>
+        <img src="http://www.monomansion.com/theme/basic/img/101.jpg" style="max-width:100%;" id="service">
+        <img src="http://www.monomansion.com/theme/basic/img/102.jpg" style="max-width:100%;" id="trs">
+    </div>
+    <footer>
+        상호 : JS PICTURE &nbsp;&nbsp;| &nbsp;&nbsp;책임자 : 서지수 &nbsp;&nbsp;| &nbsp;&nbsp;주소 : 인천광역시 연수구 아카데미로 119
+        (인천대학교)
+
+    </footer>
+</body>
+</html>
